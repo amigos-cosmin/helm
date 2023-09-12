@@ -1,0 +1,4 @@
+namespace: mywebapp-dev
+configMap:
+  data:
+    CUSTOM_HEADER: "This app was deployed with helm for dev"

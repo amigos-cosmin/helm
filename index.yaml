@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  demo-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-12T12:27:50.777002+03:00"
+    description: A Demo Helm chart for Kubernetes
+    digest: 46b8d801daa6ec42972ada92235b71275432a8d49a84e29fa0fe7688d492dbfd
+    name: demo-app
+    type: application
+    urls:
+    - https://github.com/tech-amigos-limited/helm-chart-samples/demo-app-0.2.0.tgz
+    version: 0.2.0
+  webapp1:
+  - apiVersion: v1
+    appVersion: 1.16.0
+    created: "2023-09-12T12:27:50.777615+03:00"
+    description: A Helm chart for the installation of a sample web app
+    digest: 61ac157643076bf22de3ea2d2a2bb0762f97c1a03a3e226c9b67fb64e68e6ac7
+    name: webapp1
+    type: application
+    urls:
+    - https://github.com/tech-amigos-limited/helm-chart-samples/webapp1-0.1.0.tgz
+    version: 0.1.0
+  webapp3:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-12T12:27:50.777955+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 7e76371334c03fc143af62caf4af8327e38a4accab90bb8b2a871b7297cf99cc
+    name: webapp3
+    type: application
+    urls:
+    - https://github.com/tech-amigos-limited/helm-chart-samples/webapp3-0.3.0.tgz
+    version: 0.3.0
+generated: "2023-09-12T12:27:50.774984+03:00"

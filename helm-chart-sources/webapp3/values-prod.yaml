@@ -1,0 +1,4 @@
+namespace: mywebapp-prod
+configMap:
+  data:
+    CUSTOM_HEADER: "This app was deployed with helm for prod"

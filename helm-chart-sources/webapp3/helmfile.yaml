@@ -1,0 +1,9 @@
+repositories:
+- name: tech-amigos-limited
+  url: https://raw.githubusercontent.com/tech-amigos-limited/helm-chart-samples/main/
+
+releases:
+- name: mywebapp-release-dev # release name
+  chart: ./webapp3 # chart name
+  installed: true # sets install to true
+  version: 0.3.0

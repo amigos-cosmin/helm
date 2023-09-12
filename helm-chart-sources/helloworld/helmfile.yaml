@@ -1,0 +1,4 @@
+releases:
+  - name: helloworldrelease    # release name
+    chart: ./helloworld # chart name
+    installed: true     # sets install to true
